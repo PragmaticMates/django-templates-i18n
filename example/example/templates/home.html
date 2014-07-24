@@ -1,0 +1,14 @@
+{% load i18n future %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>django-templates-i18n by Pragmatic Mates</title>
+</head>
+<body>
+    <h1>django-templates-i18n</h1>
+    {% for language in LANGUAGES %}
+        <a href="/{{ language.0 }}/my-view/">{{ language.1 }}</a><br>
+    {% endfor %}
+</body>
+</html>

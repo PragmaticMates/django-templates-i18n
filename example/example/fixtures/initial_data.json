@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "templates_i18n.template_i18n", "fields": {"machine_name": "my-template", "content_en": "Hello {{ user }}", "created": "2014-07-24T12:58:32.333Z", "content_ru": "\u0410\u043b\u043b\u043e {{ user }}", "modified": "2014-07-24T12:58:32.333Z", "content": "Hello {{ user }}", "content_zh": "\u4f60\u597d {{ user }}", "content_sk": "Ahoj {{ user }}"}}]
