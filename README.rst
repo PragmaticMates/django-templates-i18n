@@ -17,7 +17,7 @@ Requirements
 Installation
 ------------
 
-1. Install python library using pip: pip install django-templates-i18n
+1. Install python library using pip: ``pip install django-templates-i18n``
 
 2. Add ``templates_i18n`` to ``INSTALLED_APPS`` in your Django settings file
 
