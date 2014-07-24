@@ -14,8 +14,6 @@ setup(
     url='https://github.com/PragmaticMates/django-templates-i18n',
     packages=[
         'templates_i18n',
-        'templates_i18n.templatetags',
-        'templates_i18n.migrations'
     ],
     include_package_data=True,
     install_requires=('South', 'django_modeltranslation', 'django'),
@@ -28,7 +26,7 @@ setup(
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'Framework :: Django',
-        'License :: OSI Approved :: BSD License'
+        'License :: OSI Approved :: BSD License',
         'Development Status :: 3 - Alpha'
     ],
     license='BSD License',
