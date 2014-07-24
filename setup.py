@@ -16,7 +16,7 @@ setup(
         'templates_i18n',
     ],
     include_package_data=True,
-    install_requires=('South', 'django_modeltranslation', 'django'),
+    install_requires=('django_modeltranslation', 'django'),
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.5',
