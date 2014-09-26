@@ -59,6 +59,7 @@ or you can use it to send emails as well::
 
     from django.core.mail import send_mail
     from django.template import Template, Context
+    
     from templates_i18n.models import Template_i18n
 
 
