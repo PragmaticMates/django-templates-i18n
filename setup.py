@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='django-templates-i18n',
     version='0.1.0',
-    description='Translatable templates',
+    description='Translatable django templates',
     long_description=open('README.rst').read(),
     author='Pragmatic Mates',
     author_email='info@pragmaticmates.com',

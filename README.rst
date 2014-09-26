@@ -39,7 +39,7 @@ Installation
 Usage
 -----
 
-Ajax call is made whenever the parent field is changed. You must set up the ajax URL to return json list of lists::
+You can pass it to template renderer as follows::
 
     from django.http import HttpResponse
     from django.template import Template, Context
@@ -55,7 +55,7 @@ Ajax call is made whenever the parent field is changed. You must set up the ajax
             context = Context({'user': request.user})
             return HttpResponse(template.render(context))
 
-or::
+or you can use it to send emails as well::
 
     from django.core.mail import send_mail
     from django.template import Template, Context
